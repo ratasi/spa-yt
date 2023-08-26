@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Overview() {
     return (
         <div id="overview" className="p-5 mt-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-400 md:px-24 md:py-52">
-            <div className="items-center md:grid md:grid-cols-2">
+            <div className="items-center md:grid md:grid-cols-2 max-w-6xl mx-auto">
                 <div>
                     <h1 className="text-4xl font-bold text-white md:leading-snug md:text-6xl">Desarrolla tus skills <br /> para el futuro</h1>
                     <p className="mt-5 text-white">Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
